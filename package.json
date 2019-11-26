@@ -1,0 +1,14 @@
+{
+  "name": "cypress-dojo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Zanzas/cypress-dojo.git",
+  "author": "Youssef <you.benhaddou@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test:e2e": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^3.6.1"
+  }
+}
