@@ -48,7 +48,6 @@ describe('Home Page', () => {
 
   it('it should be to visit detail page of second pokemon', () => {
     cy.get('#g6_liste_pkmn tr:eq(2) a')
-      .invoke('removeAttr', 'target')
       .click()
 
     cy.location('pathname').should('include', 'Herbizarre')
